@@ -5,6 +5,11 @@ RUN apt-get update && apt-get install -y \
         libsoup2.4-1 \
         libarchive13 \
         libglu1-mesa \
+        libnss3 \
+        libasound2 \
+        libxtst6 \
+        libgconf-2-4 \
+        libcap2 \
         libpng-dev
 
 ADD http://beta.unity3d.com/download/3c89f8d277f5/UnitySetup-2017.3.0f1 .
